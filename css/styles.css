@@ -1,0 +1,721 @@
+html,
+body {
+  background-color: #f5f5f5;
+  color: #4e4e4e;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  scroll-behavior: smooth;
+}
+
+h2 {
+  color: #1e1e1e;
+  font-size: 48px;
+  line-height: 57.6px;
+  font-weight: 700;
+}
+
+.title p {
+  position: relative;
+}
+
+.title p:before {
+  position: absolute;
+  content: "";
+  left: calc(50% - 20px);
+  right: 50%;
+  bottom: -20px;
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+}
+
+#home {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/intro-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+#home .navTrans {
+  background-color: transparent;
+}
+
+#home .navbar .navbarTextLogo {
+  color: #fff;
+  font-size: 25.6px;
+  line-height: 38.4px;
+  font-weight: 600;
+}
+
+#home .navbar .navbarTextList span {
+  --border-color: #fff;
+  --border-width: 3px;
+  --bottom-distance: 0px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  background-image: linear-gradient(var(--border-color), var(--border-color));
+  background-size: 0% var(--border-width);
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease;
+  -webkit-transition: background-size 0.5s ease;
+  -moz-transition: background-size 0.5s ease;
+  -ms-transition: background-size 0.5s ease;
+  -o-transition: background-size 0.5s ease;
+}
+
+#home .navbar .navbarTextList .fromLeft {
+  background-position: 0 100%;
+}
+
+#home .navbar .navbarTextList span:hover {
+  background-size: 75% var(--border-width);
+}
+
+#home .navbar-nav .listItems {
+  padding: 0px 10px;
+}
+
+.bgColor {
+  background-color: rgba(0,0,0,0.8);
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+#home .container .content {
+  color: #fff;
+}
+
+#home .container .content h1 {
+  font-size: 72px;
+  line-height: 86.4px;
+  font-weight: 600;
+}
+
+#home .container .content p {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 400;
+}
+
+#sectionOne {
+  padding-top: 100px;
+}
+
+#sectionOne .box {
+  padding: 24px;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+
+#sectionOne .personalImage img {
+  width: 100%;
+}
+
+#sectionOne .box .skills {
+  padding: 0 15px;
+}
+
+#sectionOne .personalInfo span {
+  color: #1e1e1e;
+  font-size: 17.6px;
+  line-height: 26.4px;
+  font-weight: 600;
+}
+
+#sectionOne .mySkills h6 {
+  color: #1e1e1e;
+  font-size: 17.6px;
+  line-height: 26.4px;
+  font-weight: 600;
+}
+
+#sectionOne .skillsPercent {
+  width: fit-content;
+}
+
+#sectionOne .htmlProgress {
+  width: 85%;
+}
+
+#sectionOne .cssProgress {
+  width: 75%;
+}
+
+#sectionOne .phpProgress {
+  width: 50%;
+}
+
+#sectionOne .jsProgress {
+  width: 90%;
+}
+
+#sectionOne .aboutMe .title h5 {
+  color: #1e1e1e;
+  font-size: 32px;
+  line-height: 38.4px;
+  font-weight: 500;
+  position: relative;
+}
+
+#sectionOne .aboutMe .title h5:before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  bottom: -12px;
+}
+
+#sectionOne .aboutMe p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+#sectionTwo {
+  padding-top: 100px;
+}
+
+#sectionTwo .title p {
+  position: relative;
+}
+
+#sectionTwo .title p:before {
+  position: absolute;
+  content: "";
+  left: calc(50% - 20px);
+  right: 50%;
+  bottom: -20px;
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+}
+
+#sectionTwo .bigBox {
+  padding: 0px 16px;
+}
+
+#sectionTwo .box {
+  padding: 40px 20px;
+  margin-bottom: 50px;
+  box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+  background-color: white;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+#sectionTwo .box .drawIcon {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px rgb(0, 120, 255);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+#sectionTwo .box:hover .drawIcon {
+  background-color: #0078ff;
+  box-shadow: 0 0 0 10px rgba(0, 120, 255, 0.2);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+#sectionTwo .box:hover .fas {
+  color: white;
+}
+
+#sectionTwo .box .icon {
+  margin-bottom: 30px;
+}
+
+#sectionTwo .box .fas {
+  font-size: 55px;
+  color: black;
+}
+
+#sectionTwo .box .text h3 {
+  font-size: 22.4px;
+  line-height: 26.88px;
+  font-weight: 500;
+  color: #1e1e1e;
+  margin-bottom: 20px;
+}
+
+#sectionThree {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 120, 255, 0.7),
+      rgba(0, 120, 255, 0.7)
+    ),
+    url(../img/counters-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  padding: 100px 0px;
+}
+
+#sectionThree .icon {
+  margin-bottom: 25px;
+}
+
+#sectionThree .icon .drawIcon {
+  height: 60px;
+  width: 60px;
+  line-height: 1.8;
+  box-shadow: 0 0 0 10px #cde1f8;
+  margin: auto;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+#sectionThree .icon .fas {
+  font-size: 25px;
+  color: #fff;
+}
+
+#sectionThree .text {
+  color: #fff;
+}
+
+#sectionThree .text .counter {
+  font-size: 32px;
+  line-height: 48px;
+}
+
+#sectionFour {
+  padding-top: 100px;
+}
+
+#sectionFour .bigBox {
+  padding: 0px 30px;
+}
+
+#sectionFour .box .image img {
+  width: 100%;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+#sectionFour .box .image {
+  margin-bottom: 20px;
+}
+
+#sectionFour .box {
+  border-radius: 10px;
+  margin-bottom: 30px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+  background-color: white;
+}
+
+#sectionFour .box:hover {
+  cursor: pointer;
+}
+
+#sectionFour .box:hover img {
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+#sectionFour .box .content {
+  padding: 20px 10px;
+}
+
+#sectionFour .box .content .color {
+  color: #0078ff;
+}
+
+#sectionFour .box .content .text h4 {
+  color: #1e1e1e;
+  font-size: 19.2px;
+  line-height: 23.04px;
+  font-weight: 500;
+}
+
+#sectionFour .box .content .text span {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  font-weight: 400;
+}
+
+#sectionFour .box .content .icon {
+  margin: auto 0;
+}
+
+#sectionFour .box .content .drawIcon i {
+  color: #0078ff;
+  box-shadow: 0 0 0 1px rgba(0, 120, 255, 1);
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  line-height: 33px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 40px;
+}
+
+#sectionFive {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 120, 255, 0.7),
+      rgba(0, 120, 255, 0.7)
+    ),
+    url(../img/overlay-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  padding: 100px 0;
+}
+
+#sectionFive .box .image img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+#sectionFive .box:hover {
+  cursor: grab;
+}
+
+#sectionFive .box .content {
+  color: white;
+}
+
+#sectionFive .box .content h4 {
+  font-size: 22.4px;
+  line-height: 33.6px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#sectionFive .box .content p {
+  padding: 0 13rem;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+#sectionFive .box .content .drawIcon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  background-color: white;
+}
+
+#sectionFive .box .content .drawIcon i {
+  color: #0078ff;
+  font-size: 35px;
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 10px;
+  background-color: white;
+  opacity: 1;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.swiper-pagination-bullet-active {
+  width: 30px;
+  background-color: black;
+}
+
+#sectionSix {
+  padding-top: 100px;
+}
+
+#sectionSix .bigBox {
+  padding: 0 30px;
+}
+
+#sectionSix .box .image img {
+  width: 100%;
+}
+
+#sectionSix .box .image:hover {
+  cursor: pointer;
+}
+
+#sectionSix .box {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+  text-decoration: none;
+  overflow: visible;
+}
+
+#sectionSix .box .content {
+  position: relative;
+}
+
+#sectionSix .box .content .category {
+  position: absolute;
+  text-align: center;
+  top: -16px;
+  left: 15px;
+  right: 15px;
+  line-height: 25px;
+  overflow: hidden;
+}
+
+#sectionSix .box .content p {
+  color: #4e4e4e;
+}
+
+#sectionSix .box .content .category .categorybgColor {
+  width: fit-content;
+  color: #fff;
+  padding: 10px 15px;
+  overflow: hidden;
+  background-color: #0078ff;
+  border-radius: 4px;
+}
+
+#sectionSix .box .content .category .categorybgColor h5 {
+  font-size: 11.2px;
+  line-height: 13.44px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+#sectionSix .box .content .text h4 {
+  font-size: 20.8px;
+  line-height: 24.96px;
+  font-weight: 500;
+  color: #1e1e1e;
+  margin-bottom: 15px;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+#sectionSix .box .content .text h4:hover {
+  cursor: pointer;
+  color: #0078ff;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+#sectionSix .box .name {
+  color: #4e4e4e;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+#sectionSix .box .name a {
+  color: #4e4e4e;
+  text-decoration: none;
+}
+
+#sectionSix .box .name .miniImage {
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+#sectionSix .box .name .miniImage:hover {
+  cursor: pointer;
+  color: #0078ff;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+#sectionSix .box .miniImage img {
+  width: 32px;
+  height: 32px;
+  margin-right: 4px;
+  overflow: hidden;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+#sectionSeven {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 120, 255, 0.7),
+      rgba(0, 120, 255, 0.7)
+    ),
+    url(../img/overlay-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  padding: 150px 0 4rem 0;
+}
+
+#sectionSeven .bigBox {
+  padding: 30px;
+  background-color: #fff;
+}
+
+#sectionSeven .sendMessage .button {
+  font-size: 19.2px;
+  line-height: 28.8px;
+  font-weight: 400;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  padding: 15px 40px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+#sectionSeven .sendMessage .button:hover {
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  box-shadow: 0 0 0 3px rgba(0, 120, 255, 0.3);
+}
+
+#sectionSeven .title h2 {
+  font-size: 32px;
+  line-height: 38.4px;
+  font-weight: 500;
+  color: #1e1e1e;
+  position: relative;
+}
+
+#sectionSeven .title h2:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -12px;
+  width: 100px;
+  height: 3px;
+  background-color: #0078ff;
+}
+
+#sectionSeven .getInTouch .content p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+#sectionSeven .getInTouch .content ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+#sectionSeven .getInTouch .content ul li i {
+  color: #0078ff;
+  font-size: 16px;
+}
+
+#sectionSeven .getInTouch a .circle-icon {
+  color: #1e1e1e;
+  box-shadow: 0 0 0 3px rgba(0, 120, 255, 1);
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 25px;
+  transition: all 500ms ease;
+}
+
+#sectionSeven .getInTouch a:hover .circle-icon {
+  transition: all 500ms ease;
+  background-color: #0078ff;
+  box-shadow: 0 0 0 3px rgba(0, 120, 255, 0.3);
+  color: #fff;
+}
+
+#sectionSeven .pageEnd {
+  color: #fff;
+}
+
+#sectionSeven .pageEnd a {
+  color: #fff;
+}
+
+.modal-dialog {
+  max-width: unset;
+}
+
+.modal-body img{
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}

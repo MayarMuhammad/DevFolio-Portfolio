@@ -1,0 +1,13 @@
+Navbar:
+https://codepen.io/Sharmin_74/pen/vYXXggL
+
+TypedJS:
+https://github.com/mattboldt/typed.js
+https://github.com/mattboldt/typed.js/blob/master/lib/typed.min.js
+
+PureCounter:
+https://github.com/srexi/purecounterjs 
+
+Swiper:
+https://swiperjs.com/get-started#add-swiper-html-layout
+https://codesandbox.io/s/j4019k?file=/index.html
