@@ -708,6 +708,11 @@ h2 {
   color: #fff;
 }
 
+.modal{
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+}
+
 .modal-dialog {
   max-width: unset;
 }
